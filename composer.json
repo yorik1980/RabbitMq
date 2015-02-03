@@ -1,0 +1,14 @@
+{
+	"name": "yorik1980/rabbitmq",
+    "description": "Simple RabbitMq extension for Yii",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuriy Rudenko",
+            "email": "yorikinbox@gmail.com"
+        }
+    ],
+    "require": {
+        "videlalvaro/php-amqplib": "v2.1.0"
+    }
+}
