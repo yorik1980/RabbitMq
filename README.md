@@ -32,7 +32,7 @@ Yii::app()->rabbitMq->publish('Hello world!');
 ### Consume example
 ```php
 Yii::app()->rabbitMqSendMessage->consume(function($msg) {
-	echo $msg . "\n";
+	echo $msg->body . "\n";
 	RabbitMq::removeFromQueue($msg);
 }, 300);
 ```
