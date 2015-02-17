@@ -26,7 +26,7 @@ Copy to the extensions dir of your project and run composer update inside of ext
 
 ### Publish example
 ```php
-Yii::app()->rabbitMq->publish(json_encode('Hello world!'));
+Yii::app()->rabbitMq->publish('Hello world!');
 ```
 
 ### Consume example
